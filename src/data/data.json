@@ -1,0 +1,652 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "علی محمدی",
+      "email": "ali@example.com",
+      "balance": 500000,
+      "password": "123456",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "مریم احمدی",
+      "email": "maryam@example.com",
+      "balance": 750000,
+      "password": "123456",
+      "gender": "female"
+    }
+  ],
+  "branches": {
+    "pool": [
+      {
+        "id": 1,
+        "name": "استخر آبی شرق",
+        "location": "منطقه شرق",
+        "price": 150000,
+        "image": "https://images.unsplash.com/photo-1591285713698-598d587de63e?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "استخر مجهز با امکانات کامل و محیطی بهداشتی",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "سونای خشک",
+          "جکوزی",
+          "استخر کودکان",
+          "کافی‌شاپ",
+          "حوله رایگان"
+        ],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "استخر آبی غرب",
+        "location": "منطقه غرب",
+        "price": 170000,
+        "image": "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "استخر مجهز با سونای خشک و بخار",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["سونای بخار", "جکوزی", "استخر کودکان", "کافی‌شاپ"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "استخر ساحل",
+        "location": "منطقه شمال",
+        "price": 180000,
+        "image": "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "استخر با طراحی منحصر به فرد و امکانات ویژه",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["استخر موج", "سرسره آبی", "جکوزی", "کافی‌شاپ"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "استخر دلفین",
+        "location": "منطقه جنوب",
+        "price": 160000,
+        "image": "https://images.unsplash.com/photo-1621245700087-a8617f91cdbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "استخر تفریحی با امکانات ویژه خانواده‌ها",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "استخر کودکان",
+          "سرسره آبی",
+          "کافی‌شاپ",
+          "پارکینگ اختصاصی"
+        ],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "استخر مروارید",
+        "location": "منطقه مرکز",
+        "price": 190000,
+        "image": "https://images.unsplash.com/photo-1551491603-7d38b9e605f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "استخر لاکچری با امکانات VIP",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["استخر VIP", "سونای خشک و بخار", "ماساژ", "رستوران"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "استخر آفتاب",
+        "location": "منطقه شرق",
+        "price": 155000,
+        "image": "https://images.unsplash.com/photo-1602774895312-f002b8f2f33b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "استخر روباز با فضای سرسبز",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["استخر روباز", "فضای سبز", "کافی‌شاپ", "آلاچیق"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "استخر نیلوفر",
+        "location": "منطقه غرب",
+        "price": 165000,
+        "image": "https://images.unsplash.com/photo-1571666402424-c17d7e0cf0dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "استخر مجهز با کلاس‌های آموزشی",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["کلاس‌های آموزشی", "استخر حرفه‌ای", "جکوزی", "سونا"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "استخر کاسپین",
+        "location": "منطقه شمال",
+        "price": 175000,
+        "image": "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "استخر با معماری مدرن و امکانات پیشرفته",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["معماری مدرن", "تجهیزات پیشرفته", "کافی‌شاپ", "پارکینگ"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "استخر خلیج",
+        "location": "منطقه جنوب",
+        "price": 145000,
+        "image": "https://images.unsplash.com/photo-1558617320-e695f0d420de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3dpbW1pbmclMjBwb29sfGVufDB8fDB8fHwy",
+        "description": "استخر خانوادگی با قیمت مناسب",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["استخر خانوادگی", "بوفه", "پارکینگ", "رختکن مجزا"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "استخر اطلس",
+        "location": "منطقه مرکز",
+        "price": 185000,
+        "image": "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3dpbW1pbmclMjBwb29sfGVufDB8fDB8fHwy",
+        "description": "استخر مجهز با استانداردهای بین‌المللی",
+        "images": [
+          "https://images.unsplash.com/photo-1614667288602-9ac6e37318a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1498747946579-bde604cb8f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["استخر استاندارد", "سونا", "جکوزی", "کافی‌شاپ"],
+        "rules": [
+          "استفاده از کلاه شنا الزامی است",
+          "دوش گرفتن قبل از ورود به استخر الزامی است"
+        ]
+      }
+    ],
+    "gym": [
+      {
+        "id": 1,
+        "name": "باشگاه بدنسازی مرکزی",
+        "location": "منطقه مرکز",
+        "price": 100000,
+        "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "باشگاه بدنسازی مجهز با دستگاه‌های مدرن",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "دستگاه‌های مدرن",
+          "مربیان حرفه‌ای",
+          "برنامه تغذیه",
+          "کلاس‌های گروهی"
+        ],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "باشگاه بدنسازی شمال",
+        "location": "منطقه شمال",
+        "price": 120000,
+        "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=1200",
+        "description": "باشگاه بدنسازی با مربیان حرفه‌ای",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "دستگاه‌های پیشرفته",
+          "مربیان بین‌المللی",
+          "برنامه تغذیه",
+          "کلاس‌های TRX"
+        ],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "باشگاه فیتنس پلاس",
+        "location": "منطقه غرب",
+        "price": 110000,
+        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1200",
+        "description": "باشگاه تخصصی فیتنس و تناسب اندام",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["کلاس‌های HIIT", "یوگا", "پیلاتس", "مشاوره تغذیه"],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "باشگاه قهرمان",
+        "location": "منطقه شرق",
+        "price": 130000,
+        "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fHwy",
+        "description": "باشگاه تخصصی پرورش اندام",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "دستگاه‌های حرفه‌ای",
+          "مربیان قهرمان",
+          "مکمل‌های ورزشی",
+          "برنامه تمرینی"
+        ],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "باشگاه انرژی",
+        "location": "منطقه جنوب",
+        "price": 90000,
+        "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "باشگاه مقرون به صرفه با امکانات کامل",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "دستگاه‌های متنوع",
+          "مربیان باتجربه",
+          "قیمت مناسب",
+          "پارکینگ"
+        ],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "باشگاه اوج",
+        "location": "منطقه مرکز",
+        "price": 140000,
+        "image": "https://images.unsplash.com/photo-1580261450046-d0a30080dc9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "باشگاه لاکچری با امکانات VIP",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["دستگاه‌های لوکس", "مربیان درجه یک", "اسپا", "کافی‌شاپ"],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "باشگاه آرامش",
+        "location": "منطقه غرب",
+        "price": 115000,
+        "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fHwy",
+        "description": "باشگاه با تمرکز بر سلامت و تندرستی",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["یوگا", "مدیتیشن", "پیلاتس", "ماساژ"],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "باشگاه المپیک",
+        "location": "منطقه شمال",
+        "price": 125000,
+        "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=1200",
+        "description": "باشگاه با استانداردهای المپیکی",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "تجهیزات المپیکی",
+          "مربیان المپیکی",
+          "برنامه حرفه‌ای",
+          "مکمل"
+        ],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "باشگاه پویا",
+        "location": "منطقه شرق",
+        "price": 105000,
+        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1200",
+        "description": "باشگاه با تمرکز بر ورزش‌های پویا",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": ["کراس‌فیت", "بوکس", "MMA", "کیک‌بوکسینگ"],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "باشگاه آینده",
+        "location": "منطقه جنوب",
+        "price": 95000,
+        "image": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+        "description": "باشگاه با تجهیزات هوشمند و مدرن",
+        "images": [
+          "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHwy",
+          "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHx8Mg%3D%3D"
+        ],
+        "features": [
+          "دستگاه‌های هوشمند",
+          "اپلیکیشن تمرینی",
+          "مربی مجازی",
+          "برنامه آنلاین"
+        ],
+        "rules": [
+          "استفاده از حوله شخصی الزامی است",
+          "همراه داشتن کفش ورزشی تمیز الزامی است"
+        ]
+      }
+    ],
+    "salon": [
+      {
+        "id": 1,
+        "name": "سالن ورزشی چندمنظوره مرکزی",
+        "location": "منطقه مرکز",
+        "price": 200000,
+        "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnRzfGVufDB8fDB8fHwy",
+        "description": "سالن ورزشی برای انواع ورزش‌های گروهی",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": [
+          "زمین فوتسال",
+          "زمین والیبال",
+          "زمین بسکتبال",
+          "رختکن مجهز"
+        ],
+
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "سالن ورزشی جنوب",
+        "location": "منطقه جنوب",
+        "price": 180000,
+        "image": "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "سالن ورزشی مجهز برای فوتسال و والیبال",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": ["زمین فوتسال", "زمین والیبال", "رختکن مجهز", "کافی‌شاپ"],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "سالن ورزشی پیروزی",
+        "location": "منطقه شرق",
+        "price": 190000,
+        "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "سالن ورزشی با امکانات حرفه‌ای",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": [
+          "زمین استاندارد",
+          "تجهیزات حرفه‌ای",
+          "رختکن VIP",
+          "پارکینگ"
+        ],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "سالن ورزشی آزادی",
+        "location": "منطقه غرب",
+        "price": 170000,
+        "image": "https://images.unsplash.com/photo-1628779238951-be2c9f2a59f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "سالن ورزشی با قیمت مناسب",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": ["زمین چندمنظوره", "بوفه", "رختکن", "پارکینگ"],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "سالن ورزشی المپیاد",
+        "location": "منطقه شمال",
+        "price": 220000,
+        "image": "https://images.unsplash.com/photo-1629901925121-8a141c2a42f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "سالن ورزشی با استانداردهای بین‌المللی",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": [
+          "زمین استاندارد بین‌المللی",
+          "تجهیزات پیشرفته",
+          "رختکن لوکس",
+          "کافی‌شاپ"
+        ],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "سالن ورزشی نشاط",
+        "location": "منطقه مرکز",
+        "price": 160000,
+        "image": "https://images.unsplash.com/photo-1510925758641-869d353cecc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+        "description": "سالن ورزشی مناسب برای مدارس و گروه‌ها",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": ["زمین چندمنظوره", "امکانات آموزشی", "رختکن گروهی", "بوفه"],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "سالن ورزشی پارس",
+        "location": "منطقه شرق",
+        "price": 175000,
+        "image": "https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3BvcnRzfGVufDB8fDB8fHwy",
+        "description": "سالن ورزشی با امکانات متنوع",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": ["زمین‌های متنوع", "تجهیزات کامل", "کافی‌شاپ", "پارکینگ"],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "سالن ورزشی ستارگان",
+        "location": "منطقه غرب",
+        "price": 195000,
+        "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BvcnRzfGVufDB8fDB8fHwy",
+        "description": "سالن ورزشی ویژه مسابقات",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": [
+          "سکوی تماشاچیان",
+          "سیستم نور حرفه‌ای",
+          "رختکن تیمی",
+          "کافی‌شاپ"
+        ],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "سالن ورزشی امید",
+        "location": "منطقه جنوب",
+        "price": 150000,
+        "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3BvcnRzfGVufDB8fDB8fHwy",
+        "description": "سالن ورزشی مناسب برای تمرینات",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": ["زمین تمرینی", "تجهیزات آموزشی", "رختکن", "بوفه"],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "سالن ورزشی پیشرو",
+        "location": "منطقه شمال",
+        "price": 210000,
+        "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BvcnRzfGVufDB8fDB8fHwy",
+        "description": "سالن ورزشی با تجهیزات پیشرفته",
+        "images": [
+          "https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwb3J0c3xlbnwwfHwwfHx8Mg%3D%3D",
+          "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BvcnRzfGVufDB8fDB8fHwy"
+        ],
+        "features": [
+          "زمین هوشمند",
+          "سیستم امتیازدهی دیجیتال",
+          "رختکن مدرن",
+          "کافی‌شاپ"
+        ],
+        "rules": [
+          "استفاده از کفش ورزشی مناسب الزامی است",
+          "رعایت قوانین بازی الزامی است"
+        ]
+      }
+    ]
+  },
+  "timeSlots": [
+    { "id": 1, "start": "08:00", "end": "10:00", "capacity": 40 },
+    { "id": 2, "start": "10:30", "end": "12:30", "capacity": 40 },
+    { "id": 3, "start": "13:00", "end": "15:00", "capacity": 40 },
+    { "id": 4, "start": "15:30", "end": "17:30", "capacity": 40 },
+    { "id": 5, "start": "18:00", "end": "20:00", "capacity": 40 }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "userId": 1,
+      "facilityType": "pool",
+      "branchId": 1,
+      "date": "2024-03-14",
+      "timeSlotId": 1
+    }
+  ]
+}
