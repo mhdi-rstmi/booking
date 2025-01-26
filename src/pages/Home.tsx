@@ -52,12 +52,20 @@ const FacilitySection: React.FC<{
               <img
                 src={facility.image}
                 alt={facility.name}
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-cover" // تصویر به‌صورت ریسپانسیو
               />
-              <div className="p-4">
-                <h3 className="text-xl font-bold mb-2">{facility.name}</h3>
-                <p className="text-gray-600 mb-2">{facility.location}</p>
-                <p className="text-blue-600 font-bold">
+              <div className="p-4 text-right">
+                <h3 className="text-xl font-bold mb-2 text-sm sm:text-base lg:text-xl">
+                  {" "}
+                  {/* سایز متن برای ریسپانسیو */}
+                  {facility.name}
+                </h3>
+                <p className="text-gray-600 mb-2 text-xs sm:text-sm lg:text-base">
+                  {" "}
+                  {/* سایز متن برای ریسپانسیو */}
+                  {facility.location}
+                </p>
+                <p className="text-blue-600 font-bold text-sm sm:text-base lg:text-lg">
                   {facility.price.toLocaleString()} تومان
                 </p>
               </div>
@@ -74,18 +82,20 @@ export const Home: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="text-center mb-12 flex items-center justify-between gap-6">
-        <div className="text-right">
-          <h1 className="text-7xl font-bold mb-4">ورزش یاب</h1>
-          <p className="text-gray-600 text-2xl mt-8">
+      <div className="text-center mb-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="text-right sm:text-left">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-4">
+            ورزش یاب
+          </h1>
+          <p className="text-gray-600 text-lg sm:text-2xl mt-4 sm:mt-8">
             بهترین امکانات ورزشی در خدمت شما
           </p>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-center sm:justify-end mt-6 sm:mt-0">
           <img
             src={hero}
-            alt=""
-            className="w-9/12 h-auto object-contain rounded-lg "
+            alt="hero"
+            className="w-10/12 sm:w-9/12 lg:w-9/12 h-auto object-contain rounded-lg"
           />
         </div>
       </div>
