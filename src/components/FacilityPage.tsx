@@ -80,7 +80,7 @@ export const FacilityPage: React.FC = () => {
           <h1 className="text-3xl font-bold mb-4">{selectedBranch.name}</h1>
           <p className="text-gray-600 mb-6">{selectedBranch.description}</p>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div>
               <h2 className="text-xl font-bold mb-4">امکانات</h2>
               <ul className="list-disc list-inside space-y-2">
@@ -125,7 +125,7 @@ export const FacilityPage: React.FC = () => {
 
           <div>
             <h2 className="text-xl font-bold mb-4">سانس‌های موجود</h2>
-            <div className="grid gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {timeSlots.map((slot) => {
                 const available = getAvailableCapacity(
                   type,
